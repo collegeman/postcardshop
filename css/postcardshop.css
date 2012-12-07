@@ -1,2 +1,3 @@
 body { margin-top: 60px; }
 .container-fluid.postcards { max-width: 1140px; margin: 0 auto; }
+.postcards .postcard { margin-bottom: 30px; }
