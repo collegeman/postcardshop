@@ -14,8 +14,6 @@ padding: 0; }
 .postcards .postcard {
 position: relative;
 float: left;
-width: 250px;
-height: 150px;
 padding: 0;
 border: 1px solid #efefef;
 margin: 0 30px 30px 0;
@@ -33,8 +31,8 @@ position: absolute;
 left: 10px;
 bottom: 10px;
 width: 70%;
-max-width: 300px; /* avoid rotation causing ugly appearance at large container widths */
-max-height: 100px;
+max-width: 360px; /* avoid rotation causing ugly appearance at large container widths */
+max-height: 240px;
 height: 55%;
 -webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 -moz-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
